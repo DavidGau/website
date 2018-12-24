@@ -143,10 +143,25 @@ h2 img{
 */
 
 footer{
+	display: flex;
+	flex-direction: column;
 	margin-top:30px;
 	margin-bottom:30px;
 	background-color: #0079C2;
-	height:200px;
+	height:250px;
+	justify-content: center;
+	color: #FFFFFF;
+	font-size:30px;
+}
+
+footer p:nth-child(1){
+	align-self: center;
+}
+
+
+footer p:nth-child(2){
+	font-size: 20px;
+	align-self: center;
 }
 
 
