@@ -3,8 +3,16 @@ body{
 	width:80%;
 	margin:auto;
 	background-color: #F6F8FA;
+	font-family: "Ubuntu";
 }
 
+h1,h2,h3{
+	color:#1F2B35
+}
+
+h2{
+	font-size: 37px;
+}
 
 #logo_maitre{
 	width:60px;
@@ -36,7 +44,6 @@ header{
 #left_bloc{
 	width:55%;
 	background-color: #FFFFFF;
-	font-family: "Ubuntu";
 }
 
 #left_bloc section{
@@ -46,7 +53,6 @@ header{
 h1{
 	font-size: 42px;
 	margin:auto;
-	color:#1F2B35;
 }
 
 #left_bloc p{
@@ -56,3 +62,33 @@ h1{
 	padding-bottom: 70px;
 }
 
+
+/*
+
+	Section des Services 
+*/
+
+
+section{
+	background-color: #FFFFFF;
+}
+
+section h2{
+	padding-top: 40px;
+	text-align: center;
+
+}
+
+ul{
+	padding-top:50px;
+	text-align: center;
+}
+
+li{
+	text-align: center;
+	display: inline-block;
+	width:25%;
+	margin-left:2.5%;
+	margin-right:2.5%;
+	padding-bottom: 80px;
+}
