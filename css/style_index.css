@@ -1,0 +1,58 @@
+/*https://demos.onepagelove.com/html/agnes/*/
+body{
+	width:80%;
+	margin:auto;
+	background-color: #F6F8FA;
+}
+
+
+#logo_maitre{
+	width:60px;
+	height:60px;
+	padding:3% 0 3% 14%;
+}
+
+header{
+	display: flex;
+  	justify-content: center;
+}
+
+#right_bloc{
+	position: relative;
+	width:45%;
+	background-color: #319CFD;
+
+}
+
+#right_bloc img{
+	position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+	width:75%;
+	left:-10%;
+	box-shadow: -2px 0px 20px #718495;
+}
+
+#left_bloc{
+	width:55%;
+	background-color: #FFFFFF;
+	font-family: "Ubuntu";
+}
+
+#left_bloc section{
+	padding:7% 0 0 15%;
+}
+
+h1{
+	font-size: 42px;
+	margin:auto;
+	color:#1F2B35;
+}
+
+#left_bloc p{
+	width:70%;
+	line-height: 35px;
+	color:#718495;
+	padding-bottom: 70px;
+}
+
