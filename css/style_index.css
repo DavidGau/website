@@ -64,6 +64,7 @@ h1{
 #left_bloc p{
 	width:70%;
 	padding-bottom: 70px;
+	margin-top:50px;
 }
 
 
@@ -164,4 +165,6 @@ footer p:nth-child(2){
 	align-self: center;
 }
 
-
+footer a:visited{
+	color:#1F2B35;
+}
