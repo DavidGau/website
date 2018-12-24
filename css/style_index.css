@@ -96,7 +96,12 @@ li{
 	width:25%;
 	margin-left:2.5%;
 	margin-right:2.5%;
-	padding-bottom: 80px;
+	margin-bottom: 80px;
+	transition-duration: 1s;
+}
+
+li:hover{
+	box-shadow: 5px 4px 8px grey;
 }
 
 
