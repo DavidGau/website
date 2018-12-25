@@ -1,4 +1,3 @@
-/*https://demos.onepagelove.com/html/agnes/*/
 body{
 	width:80%;
 	margin:auto;
@@ -23,7 +22,7 @@ h2{
 #logo_maitre{
 	width:60px;
 	height:60px;
-	padding:3% 0 3% 14%;
+	margin:3% 0 3% 14%;
 }
 
 header{
@@ -53,19 +52,87 @@ header{
 }
 
 #left_bloc section{
-	padding:7% 0 0 15%;
+	padding:7% 0 0 0%;
 }
 
 h1{
 	font-size: 42px;
 	margin:auto;
+	text-align: center;
 }
 
 #left_bloc p{
 	width:70%;
+	margin:auto;
 	padding-bottom: 70px;
 	margin-top:50px;
+	text-align: center;
 }
+
+@media screen and (min-width: 1400px){		/* If over 1400px */
+
+		#right_bloc img{
+			min-width: 	450px;
+		}
+
+}
+
+
+@media screen and (max-width: 1399px){		/* If under 1399px */
+
+		#right_bloc img{
+			min-width: 	400px;
+			left:-5%;
+		}
+
+		#left_bloc p{
+			width:80%;
+		}
+}
+
+@media screen and (max-width: 1250px) { /* If under 1250px */
+
+	body{
+		width:90%;
+	}
+}
+
+@media screen and (max-width: 1000px){ /* If under 1000px */
+
+	body{
+		width:100%;
+	}
+
+	#right_bloc img{
+		min-width: 	400px;
+		left:-2.5%;
+	}
+}
+
+@media screen and (max-width: 900px){ /* If under 900px */
+
+	h1{
+		font-size: 37px;
+		width:90%;
+	}
+
+	h2{
+		font-size: 33px;
+	}
+
+	.text{
+		font-size: 17px;
+	}
+
+	#right_bloc img{
+		min-width: 	350px;
+		left:-2.5%;
+	}
+}
+
+@media screen and (max-width:800px){ /* If under 800px */
+
+} 
 
 
 /*
