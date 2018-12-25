@@ -102,7 +102,7 @@ li{
 }
 
 li:hover{
-	box-shadow: 5px 4px 8px grey;
+	box-shadow: 5px 5px 18px -5px grey;
 }
 
 
