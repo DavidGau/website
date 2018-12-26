@@ -199,6 +199,50 @@ footer a:visited{
 }
 
 
+@media screen and (min-width: 2000px){		/* If over 2000 px */
+
+	h2{
+		font-size:40px;
+	}
+
+	li img{
+		width:80px;
+	}
+
+	h3{
+		font-size:30px;
+	}
+
+	li p{
+		font-size: 27px;
+	}
+
+	.text{
+		font-size:28px;
+		line-height: 40px;
+	}
+
+	footer{
+		font-size: 45px;
+	}
+
+	footer p:nth-child(2){
+		font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 2500px){	/* If over 2500px */
+
+	li img{
+		width:100px;
+	}
+
+	section:nth-child(3) div:nth-child(1){
+		font-size: 45px;
+	}
+}
+
+
 @media screen and (max-width: 1399px){		/* If under 1399px */
 
 	#right_bloc img{
